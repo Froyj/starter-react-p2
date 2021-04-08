@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  var i;
+  var i = 3;
+  console.log(i)
+  
   return (
     <div className="App">
       <header className="App-header">

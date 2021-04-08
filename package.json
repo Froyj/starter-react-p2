@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "prepare": "husky install",
     "lint": "eslint . --ext .js,.jsx",
-    "lint-staged": "lint-staged"
+    "lint-staged": "npx lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +50,6 @@
     "lint-staged": "^10.5.4"
   },
   "lint-staged": {
-    "src/**/*/{js,jsx}": "npm run lint"
+    "src/**/*.{js,jsx}": "npm run lint"
   }
 }
