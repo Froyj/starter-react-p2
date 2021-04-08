@@ -3,7 +3,7 @@
     "browser": true,
     "es2021": true
   },
-  "ignorePatterns": "index.js",
+  "ignorePatterns": ["index.js", "reportWebVitals.js"],
   "extends": ["plugin:react/recommended", "airbnb"],
   "parserOptions": {
     "ecmaFeatures": {
