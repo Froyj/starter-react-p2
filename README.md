@@ -1,6 +1,39 @@
-# Getting Started with Create React App
+# React Boilerplate with linters config  
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Installation and requirements
+### Step 1 : installing the deps
+
+Start by installing the dependencies by typing `npm install` in your terminal.
+
+### Step 2 : Needed extensions for linting
+
+This project comes with a set of common styling rules both for JS and CSS.
+
+To benefit from the linting, you will need to install the following extensions for VScode :
+- Prettier
+- EsLint
+- Stylelint
+
+## Checks and Linters
+
+### Pre-commits checks with Husky and Lint-staged
+
+Before each commit, linters will be launched to check your code. If your code break some linting rules, you won't be able to commit your staged files. Ensure that your codebase is clean before each commit. 
+
+You can launch manually the checks with `npm run lint`
+### ESLint configuration
+
+ESLint is configured to enforce an lightened version of AirBnB style rules.
+
+Here are the differences with the AirBnB rules :
+  - Props spreading is allowed
+  - No need to add `import React from 'react'` stuff
+  - Missing PropTypes only returns warning 
+  - Enforced "one expression per line" is off
+ 
 
 ## Available Scripts
 
@@ -28,43 +61,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
