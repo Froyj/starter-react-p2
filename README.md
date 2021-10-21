@@ -12,10 +12,14 @@ Start by installing the dependencies by typing `npm install` in your terminal.
 
 This project comes with a set of common styling rules both for JS and CSS.
 
-To benefit from the linting, you will need to install the following extensions for VScode :
+To benefit from the linting, you will need to have the following extensions installed in VScode :
 - Prettier
-- EsLint
+- ESLint
 - Stylelint
+
+### Step 3
+
+Once everything above is installed, reload your VScode window by pushing `ctrl + shift + p` and select `Developper: Reload window`
 
 ## Checks and Linters
 
