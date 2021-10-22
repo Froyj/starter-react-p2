@@ -17,6 +17,8 @@ To benefit from the linting, you will need to have the following extensions inst
 - ESLint
 - Stylelint
 
+Ensure that prettier is the selected formatter for css
+
 ### Step 3
 
 Once everything above is installed, reload your VScode window by pushing `ctrl + shift + p` and select `Developper: Reload window`
